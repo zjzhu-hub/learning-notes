@@ -1,0 +1,3 @@
+D:\develop\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\MyDLL.dir/objects.a
+D:\develop\msys64\ucrt64\bin\ar.exe qc CMakeFiles\MyDLL.dir/objects.a @CMakeFiles\MyDLL.dir\objects1.rsp
+D:\develop\msys64\ucrt64\bin\c++.exe -shared -o libMyDLL.dll -Wl,--out-implib,libMyDLL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\MyDLL.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\MyDLL.dir\linkLibs.rsp
